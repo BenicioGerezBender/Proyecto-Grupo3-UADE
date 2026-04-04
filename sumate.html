@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css?v=2" />
     <title>Document</title>
+    <link rel="stylesheet" href="estilos/estilos1.css">
 </head>
 <body>
         <header>
@@ -18,7 +19,36 @@
                 <li><a href="sumate.html">Sumáte</a></li>
             </ul>
         </nav>
-
     </header>
+    <section class="hero">
+        <div class="hero_content">
+            <h1>SÚMATE A NEXORA</h1>
+            <p>El lugar para innovar</p>
+            <a href="#form_talento" class="btn">Quiero sumarme</a>
+        </div>
+    </section>
+
+     <section class="form-talento">
+    <h2>Formulario de contacto</h2>
+    <form id="form_talento">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required><br><br>
+                <label for="nombre">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido" required><br><br>
+                <label for="telefono">Telefono:</label>
+        <input type="text" id="telefono" name="telefono" placeholder="Telefono" required><br><br>
+                <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Email" required><br><br>
+        <label for="puesto">¿A qué puesto aplicas?</label>
+            <select id="puesto" name="puesto">
+                <option value="frontend">Frontend Developer</option>
+                <option value="backend">Backend Developer</option>
+                <option value="ux-ui">Diseñador UX/UI</option>
+                <option value="data">Data Scientist</option>
+            </select><br><br>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
 </body>
 </html>
