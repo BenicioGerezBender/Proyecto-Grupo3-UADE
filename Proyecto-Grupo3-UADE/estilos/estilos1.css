@@ -1,0 +1,91 @@
+.hero {
+      height: 100vh;
+      width: 100%;
+      background-image: url('../imagenes/gente_trabajando.png'); /* tu imagen */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    .hero-content {
+      background: rgba(0, 0, 0, 0.5); /* oscurece un poco */
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #52b9e3;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .form-section {
+      height: 100vh;
+      padding: 40px;
+    }
+
+    .form-talento {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #0b1028;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+.form-talento h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color:white;
+}
+
+.form-talento label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.form-talento input,
+.form-talento select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+
+.form-talento button {
+  width: 100%;
+  padding: 12px;
+  background-color: #5c008a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-talento button:hover {
+  background-color: #4691d6;
+}
+
+
+    body{
+        margin: 0%;
+    }
+    body{
+      background-color: #9cebed;
+    }
