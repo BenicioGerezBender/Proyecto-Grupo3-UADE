@@ -89,3 +89,21 @@
     body{
       background-color: #9cebed;
     }
+
+#imgavion {
+  margin: 5px;
+  padding: 5px;
+  width: 350px;
+  height: auto;
+  border: #000000 solid 3px;
+}
+
+#logomarcas {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+  border: #000000 solid 3px;
+}
