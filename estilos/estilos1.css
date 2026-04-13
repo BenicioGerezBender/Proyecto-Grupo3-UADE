@@ -178,7 +178,42 @@ body {
   resize: vertical;
   min-height: 100px;
 }
-
+estefi-rama
+    body{
+        margin: 0%;
+    }
+    body{
+      background-color: #9cebed;
+    }
+.css{
+  list-style-type: none;
+  background-color: #45f1f4;
+  padding: 10px;
+  display: block;
+  justify-content: center;
+}
+.margin{
+  margin: 0 15px;
+}
+.links{
+  color: white;
+  text-decoration: none;
+}
+.contenedor-integrantes{
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  display: block;
+  
+}
+.marco{
+  background-color: #68f6f8;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none
 .submit-btn {
   background-color: #52b9e3;
   color: white;
@@ -307,4 +342,5 @@ footer p {
   color: #666;
   font-size: 14px;
   line-height: 1.6;
+  main
 }
