@@ -89,3 +89,33 @@
     body{
       background-color: #9cebed;
     }
+.css{
+  list-style-type: none;
+  background-color: #45f1f4;
+  padding: 10px;
+  display: block;
+  justify-content: center;
+}
+.margin{
+  margin: 0 15px;
+}
+.links{
+  color: white;
+  text-decoration: none;
+}
+.contenedor-integrantes{
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  display: block;
+  
+}
+.marco{
+  background-color: #68f6f8;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+}
