@@ -214,6 +214,8 @@ estefi-rama
   padding: 8px 16px;
   border-radius: 5px;
   text-decoration: none
+}
+
 .submit-btn {
   background-color: #52b9e3;
   color: white;
@@ -342,5 +344,92 @@ footer p {
   color: #666;
   font-size: 14px;
   line-height: 1.6;
-  main
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+.botonmenu{
+    width: 134px;
+    height: 37px;
+    border: 2px solid #52b9e3;
+    border-radius: 30px;
+    background: white;
+    margin: 20px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonmenu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.headtext{
+    width: 134px;
+    height: 37px;
+    color: black;
+    font-size: 30px;
+    border: solid 2px #52b9e3;
+    border-radius: 30px;
+    background: white;
+    padding: 8px 16px;
+    margin: 20px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.bienvenidos{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../imagenes/imgavion.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+    text-align: center;
+}
+
+.bienvenidos h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.descripcion{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #52b9e3;
+    padding: 40px 20px;
+}
+
+.cards-inicio{
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  width: 280px;
+}
+
+.clientes{
+    background-color: #52b9e3;
+    padding: 40px 20px;
+    text-align: center;
 }
