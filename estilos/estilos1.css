@@ -1,7 +1,7 @@
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url("../imagenes/gente_trabajando.png"); /* tu imagen */
+  background-image: url("../imagenes/gente_trabajando.png"); 
   background-size: cover;
   background-position: center;
   display: flex;
@@ -12,9 +12,24 @@
 }
 
 .hero-content {
-  background: rgba(0, 0, 0, 0.5); /* oscurece un poco */
   padding: 20px;
   border-radius: 10px;
+}
+
+.hero_content h1{
+  font-size: 300%;
+  color: white;
+  -webkit-text-stroke: 0.50px black;/**esto lo sume para que se vean las letras(genera un borde) en la imagen que esta atras
+  tambien podia usar text-shadow*/
+  font-weight: bold;
+}
+
+.hero_content p{
+  font-size: 200%;
+  color: white;
+  -webkit-text-stroke: 0.40px black;/**esto lo sume para que se vean las letras(genera un borde) en la imagen que esta atras
+  tambien podia usar text-shadow*/
+  font-weight: bold;
 }
 
 .btn {
@@ -41,6 +56,11 @@
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
+}
+
+.fondo_form_talento {
+  background-color: white;
+  padding: 60px 20px;
 }
 
 .form-talento h2 {
@@ -83,9 +103,6 @@
 
 body {
   margin: 0%;
-}
-body {
-  background-color: #9cebed;
 }
 
 #imgavion {
