@@ -98,7 +98,7 @@
 }
 
 .form-talento button:hover {
-  background-color: #4691d6;
+  background-color: #4691d6
 }
 
 body {
@@ -204,7 +204,7 @@ estefi-rama
     }
 .css{
   list-style-type: none;
-  background-color: #45f1f4;
+  background-color: #9cebed;
   padding: 10px;
   display: block;
   justify-content: center;
@@ -213,7 +213,6 @@ estefi-rama
   margin: 0 15px;
 }
 .links{
-  color: white;
   text-decoration: none;
 }
 .contenedor-integrantes{
@@ -221,9 +220,8 @@ estefi-rama
   border-radius: 8px;
   padding: 20px;
   margin: 10px;
-  text-align: center;
+  text-align: justify;
   display: block;
-  
 }
 .marco{
   background-color: #68f6f8;
@@ -449,4 +447,91 @@ header {
     background-color: #52b9e3;
     padding: 40px 20px;
     text-align: center;
+}
+@media (max-width:600px){
+    body {
+        background-color: #9cebed;
+    }
+    .menu {
+        flex-direction: column;
+        background-color: #9cebed;
+    }
+}
+#perfil{
+  margin: 5px;
+    border: 5px solid;
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    display: flexbox;
+}
+
+#descripcion{
+  color: #0b1028;
+  background-color: #e0f2f1;
+  display: flexbox;
+}
+
+#perfil-benicio{
+  margin: 5px;
+    border: 5px solid;
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    display: flexbox;
+}
+
+#descripcion-benicio{
+  color: #0b1028;
+  background-color: #e0f2f1;
+  display: flexbox;
+}
+
+#perfil-ricardo{
+  margin: 5px;
+    border: 5px solid;
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    display: flexbox;
+}
+
+#descripcion-ricardo{
+  color: #0b1028;
+  background-color: #e0f2f1;
+  display: flexbox;
+}
+
+#perfil-ignacio{
+  margin: 5px;
+    border: 5px solid;
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    display: flexbox;
+}
+
+#descripcion-ignacio{
+  color: #0b1028;
+  background-color: #e0f2f1;
+  display: flexbox;
+}
+
+#perfil-macarena{
+  margin: 5px;
+    border: 5px solid;
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    display: flexbox;
+}
+
+#descripcion-macarena{
+  background-color: #e0f2f1;
+  color: #0b1028;
+  display: flexbox;
+}
+
+#subtitulo{
+  color: #1a3a52;
 }
