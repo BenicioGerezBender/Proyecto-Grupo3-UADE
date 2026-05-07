@@ -412,7 +412,7 @@ header {
 }
 
 .bienvenidos{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../imagenes/imgavion.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../imagenes/BannerNexora.jpeg");
     background-size: cover;
     background-position: center;
     padding: 150px;
