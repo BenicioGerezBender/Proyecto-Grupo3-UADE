@@ -535,3 +535,11 @@ header {
 #subtitulo{
   color: #1a3a52;
 }
+
+.informacion{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../imagenes/robot.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+    text-align: center;
+}
