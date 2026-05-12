@@ -502,7 +502,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../imagenes/robot.jpg");
     background-size: cover;
     background-position: center;
-    padding: 150px;
+    padding: 100px;
     text-align: center;
 }
 
@@ -711,4 +711,74 @@ html, body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.main-proyectos {
+  background: linear-gradient(180deg, #0B1630 0%, #050B1A 100%);
+}
+
+.hero-proyectos {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../imagenes/robot.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 100px;
+      text-align: center;
+}
+
+.hero-content-proyectos {
+  color: #F4F8FF;
+  padding: 140px 20px;
+  text-align: center;
+}
+
+.proyectos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 35px;
+  justify-items: center;
+}
+
+.proyecto-card {
+  background: #111C3D;
+  border: 1px solid #233B63;
+  border-radius: 14px;
+  padding: 45px 30px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(61, 235, 255, 0.06);
+}
+
+.proyecto-card h2 {
+  color: #F4F8FF;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.proyecto-card h3 {
+  color: #F4F8FF;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+.proyecto-card p {
+  color: #A8B5D1;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.proyecto-card ul {
+  color: #A8B5D1;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.proyecto-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
 }
